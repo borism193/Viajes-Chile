@@ -1,0 +1,35 @@
+.icono {
+    width: 10%;
+    height: 10%;
+}
+
+.navbar {
+    background: none !important;
+  }
+
+  .item3 {
+    background-image: url(/assets/img/card3.jpg) ; 
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+  
+  .item2 {
+    background-image: url(/assets/img/carousel2.jpg) ; 
+    background-color: #cccccc; 
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+
+  .item1 {
+    background-image:url(/assets/img/carousel1.jpg) ; 
+    background-color: #cccccc;
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
