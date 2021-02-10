@@ -1,6 +1,19 @@
 $(function(){
-    
-    $(document).ready(function() {
-        $('.carousel').carousel({interval: 7000});
-      });
+    //smoth scrolling
+  $(document).ready(function(){
+    $("a").on('click', function(event) {
+  
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+          window.location.hash = hash;
+        });
+      } 
+    });
+  });
+
 });

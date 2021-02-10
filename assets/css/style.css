@@ -1,19 +1,19 @@
 body {
   background-color: black;
   color: white;
-  
+  font-family: 'Roboto', sans-serif;
 }
 
 .icono {
     width: 10%;
     height: 10%;
 }
-
+/* nvbar fix */
 .indexz {
   position: absolute;
   z-index: 3;
 }
-
+/* linea celeste */
 hr  {
   height: 2px;
   background-color: #5bc0de;
@@ -27,4 +27,8 @@ hr  {
 
 .margintop {
   margin-top: 10rem;
+}
+
+ .card {
+   width: 18rem;
 }
