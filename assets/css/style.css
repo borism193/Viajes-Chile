@@ -1,6 +1,7 @@
 body {
   background-color: black;
   color: white;
+  
 }
 
 .icono {
@@ -13,7 +14,7 @@ body {
   z-index: 3;
 }
 
-hr {
+hr  {
   height: 2px;
   background-color: #5bc0de;
 }
@@ -21,4 +22,9 @@ hr {
 .textov {
   margin-top: 0.6rem;
   
+}
+
+
+.margintop {
+  margin-top: 10rem;
 }
