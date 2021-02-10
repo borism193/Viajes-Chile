@@ -15,5 +15,20 @@ $(function(){
       } 
     });
   });
+      //desaparecer parrafos
+  $(".baner1").click(function() {
+    $( ".tog1" ).toggle( "slow" );
+  });
 
+  $(".baner2").click(function() {
+    $( ".tog2" ).toggle( "slow" );
+  });
+
+  $(".baner3").click(function() {
+    $( ".tog3" ).toggle( "slow" );
+  });
+    //Tooltips
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
 });

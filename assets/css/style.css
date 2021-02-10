@@ -10,8 +10,8 @@ body {
 }
 /* nvbar fix */
 .indexz {
-  position: absolute;
-  z-index: 3;
+  position: fixed;
+  top: 0;
 }
 /* linea celeste */
 hr  {
@@ -31,4 +31,9 @@ hr  {
 
  .card {
    width: 18rem;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }
